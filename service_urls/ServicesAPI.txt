@@ -1,0 +1,29 @@
+
+//Register User Service
+
+http://localhost:8080/user/openapi/register
+Input:
+{
+	"name": "rajesh",
+	"emailAddress": "rajesh@someemail.com",
+	"mobileNumber": "2145874521",
+	"password" : "654321"	
+}
+
+
+//Login Service
+http://localhost:8080/user/openapi/login
+
+Input:
+{
+	"username": "rajesh@someemail.com",
+	"password" : "654321"
+}
+
+//Save Role Service
+http://localhost:8080/role/save
+
+Input:
+{
+	"name": "User"
+}
